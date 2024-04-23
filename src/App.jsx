@@ -17,11 +17,12 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/wt-assignment-1" element={<HomePage />} />
-        <Route path="/applications" element={<Applications />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/jobs" element={<Jobs />} />
-        <Route path="/students" element={<Student />} />
-        <Route path="/placements" element={<Placements />} />
+          <Route path="/wt-assignment-1/applications" element={<Applications />} />
+          <Route path="/wt-assignment-1/profile" element={<Profile />} />
+          <Route path="/wt-assignment-1/jobs" element={<Jobs />} />
+          <Route path="/wt-assignment-1/students" element={<Student />} />
+          <Route path="/wt-assignment-1/placements" element={<Placements />} />
+       
       </Routes>
       <Footer />
     </BrowserRouter>

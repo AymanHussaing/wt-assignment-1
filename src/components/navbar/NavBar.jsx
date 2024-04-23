@@ -20,21 +20,21 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/jobs">Jobs</Link>
+                            <Link className="nav-link active" aria-current="page" to="/wt-assignment-1/jobs">Jobs</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link active" to="/students">Students</Link>
+                            <Link className="nav-link active" to="/wt-assignment-1/students">Students</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/placements">Placements</Link>
+                            <Link className="nav-link" to="/wt-assignment-1/placements">Placements</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Your Career
                             </a>
                             <ul className="dropdown-menu">
-                                <li><Link  className="dropdown-item" to="/applications">Applications</Link></li>
-                                <li><Link className="dropdown-item" to='/profile'>Profile</Link></li>
+                                <li><Link  className="dropdown-item" to="/wt-assignment-1/applications">Applications</Link></li>
+                                <li><Link className="dropdown-item" to='/wt-assignment-1/profile'>Profile</Link></li>
                                 <li><Link className="dropdown-item" to="/wt-assignment-1">Saved Jobs <span id="job-count">(2)</span></Link></li>
                             </ul>
                         </li>
