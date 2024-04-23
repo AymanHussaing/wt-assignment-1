@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.first-table{
+    margin-top: 4rem;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.sessions{
+    display: flex;
+    flex-direction:row;
+    gap:2rem;
+}
+.session-btn{
+    padding: 5px;
+    width: 100px;
+    background: rgb(76, 76, 137);
+    color: white;
+}

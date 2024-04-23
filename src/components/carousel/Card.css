@@ -1,0 +1,33 @@
+/* Card.css */
+
+.card {
+    width: 15rem;
+    padding: 4px;
+    border: 1px solid #ccc; /* Add border for the card */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for a lifted effect */
+    transition: box-shadow 0.3s ease; /* Add transition for box shadow effect */
+
+    /* Center the card horizontally */
+    margin: 0px 0px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-top-left-radius: 8px; /* Rounded corners for the image */
+    border-top-right-radius: 8px; /* Rounded corners for the image */
+}
+
+.card-body {
+    padding: 8px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #333;
+}

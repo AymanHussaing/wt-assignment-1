@@ -1,0 +1,19 @@
+nav {
+    border-bottom: 1px solid rgb(238, 232, 232);
+    position: sticky;
+}
+
+.navbar-brand span {
+    color: rgb(86, 84, 84);
+}
+
+.navbar-brand span:hover {
+    text-decoration: underline;
+}
+
+.nav-user-details span {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(244, 241, 241);
+    margin-right: 12px;
+}

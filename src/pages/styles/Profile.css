@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 2rem;
+}
+.edit {
+    width:4.5rem;
+    padding: 2px 10px;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size:1.1rem;
+    color: rgb(26, 115,232);
+    border-color: rgb(214, 214, 214);
+    margin-bottom: 1.5rem;
+    font-weight: 700px;
+}
+.edit:hover{
+    color:rgb(115, 115, 133);
+    background: rgb(228, 228, 228);
+}
+.content-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.cont {
+    border: 2px solid black;
+    padding-left: 2rem;
+    border-radius: 5px;
+    border-color: rgb(214, 214, 214);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* This adds a subtle shadow */
+    
+}
+.icon {
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.7rem;
+    margin-bottom:1.5rem;
+    gap:1rem; 
+    align-items: center; /* Center items vertically */
+    padding: 0.5rem; /* Add some padding to the icon container */
+}
+
+/* Styling for the SVG icon */
+.svg {
+    width: 20px;
+    height: 20px; 
+}
+
+/* Additional styling for the text beside the icon */
+.resume-text,
+.contact-text,
+.education-text,
+.work-text,
+.location-text,
+.profile-text {
+    font-size: 1.5rem;
+    font-weight: 500px;
+    margin-left: 0.5rem; 
+}
+.resume-download {
+    cursor: pointer;
+}
+.details{
+    margin-bottom:2.5rem;
+    display: flex;
+    flex-direction: row;
+    gap:8rem;
+
+
+}
+.res-icon{
+    width: 50px;
+    height:50px;
+}
+.details-text{
+    display: flex;
+    flex-direction: column;
+}
+.left-data{
+    display: flex;
+    flex-direction: column;
+    padding:5px 0px;
+}
+.right-data{
+    display: flex;
+    flex-direction: column;
+    padding:5px 0px;
+}
+.data-text{
+    border: 1px solid rgb(197, 194, 194);
+    border-radius: 5px;
+    text-align: center;
+    padding:10px;
+    font-size: 13px;
+}
+.btm-btn{
+    margin-top:1.5rem ;
+}

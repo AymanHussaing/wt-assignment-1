@@ -1,0 +1,12 @@
+
+.hero {
+    margin-top: 50px;
+}
+
+.display-5 {
+    font-size: 4rem; /* Increase the font size to 2.5 times the default size */
+    font-weight: bold; /* Keep the font weight bold */
+    /* Other properties remain the same */
+    color: black;
+  }
+  
