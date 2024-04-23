@@ -12,7 +12,7 @@ function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div>
-                    <Link className="navbar-brand" to="/">
+                    <Link className="navbar-brand" to="/wt-assignment-1">
                         <img src={cbitLogo} alt="logo" width="40" height="32" style={{ marginRight: '10px' }} className="d-inline-block align-text-top" />
                         CBIT <span>Careers</span>
                     </Link>
@@ -35,7 +35,7 @@ function Navbar() {
                             <ul className="dropdown-menu">
                                 <li><Link  className="dropdown-item" to="/applications">Applications</Link></li>
                                 <li><Link className="dropdown-item" to='/profile'>Profile</Link></li>
-                                <li><Link className="dropdown-item" to="/">Saved Jobs <span id="job-count">(2)</span></Link></li>
+                                <li><Link className="dropdown-item" to="/wt-assignment-1">Saved Jobs <span id="job-count">(2)</span></Link></li>
                             </ul>
                         </li>
                     </ul>
