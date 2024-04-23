@@ -12,9 +12,9 @@ const Applications = () => {
         <p className='fs-3'>Applications</p>
         <nav aria-label="Page navigation example">
           <ul class="pagination">
-            <li class="page-item"><Link className={"page-link"} to={'/'}>Submitted <span>(2)</span></Link></li>
-            <li class="page-item"><Link className={"page-link"} to={'/'}>Draft <span>(0)</span></Link></li>
-            <li class="page-item"><Link className={"page-link"} to={'/'}>Archive <span>(0)</span></Link></li>
+            <li class="page-item"><Link className={"page-link"} to={null}>Submitted <span>(2)</span></Link></li>
+            <li class="page-item"><Link className={"page-link"} to={null}>Draft <span>(0)</span></Link></li>
+            <li class="page-item"><Link className={"page-link"} to={null}>Archive <span>(0)</span></Link></li>
           </ul>
         </nav> 
         <div className='d-flex flex-row mb-3'>
