@@ -17,3 +17,9 @@ nav {
     background-color: rgb(244, 241, 241);
     margin-right: 12px;
 }
+
+.link-nav-home:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
